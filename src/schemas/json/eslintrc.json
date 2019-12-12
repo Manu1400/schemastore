@@ -135,7 +135,8 @@
         "require-await": { "$ref": "#/definitions/rule", "description": "Disallow async functions which have no await expression" },
         "vars-on-top": { "$ref": "#/definitions/rule", "description": "Require var declarations be placed at the top of their containing scope" },
         "wrap-iife": { "$ref": "#/definitions/rule", "description": "Require parentheses around immediate function invocations" },
-        "yoda": { "$ref": "#/definitions/rule", "description": "Require or Disallow “Yoda” conditions" }
+        "yoda": { "$ref": "#/definitions/rule", "description": "Require or Disallow “Yoda” conditions" },
+        "emmanuel/prefer-flatmap": { "$ref": "#/definitions/rule", "description": "slow code, prefer `flatMap` method" }
       }
     },
     "strictMode": {
