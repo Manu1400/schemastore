@@ -520,6 +520,7 @@
     "plugins": {
       "description": "ESLint supports the use of third-party plugins. Before using the plugin, you have to install it using npm.",
       "type": "array",
+      "uniqueItems": true,
       "items": {
         "type": "string"
       }
