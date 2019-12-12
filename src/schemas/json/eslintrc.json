@@ -470,7 +470,8 @@
       "type": [ "string", "array" ],
       "items": {
         "type": "string"
-      }
+      },
+      "uniqueItems": true
     },
     "globals": {
       "description": "Set each global variable name equal to true to allow the variable to be overwritten or false to disallow overwriting.",
