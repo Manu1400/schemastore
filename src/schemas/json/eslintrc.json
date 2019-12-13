@@ -523,7 +523,8 @@
       "type": "array",
       "uniqueItems": true,
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^(((plugin|eslint):)?[a-z\-@\/]+}$"
       }
     },
     "root": {
