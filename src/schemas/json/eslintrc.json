@@ -524,7 +524,7 @@
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "pattern": "^(((plugin|eslint):)?[a-z\-@\/]+}$"
+        "pattern": "((plugin|eslint):)?[a-z\-@\/]+"
       }
     },
     "root": {
