@@ -339,7 +339,7 @@
         "experimentalObjectRestSpread": { "type": "boolean",
           "description": "Enables support for the experimental object rest/spread properties (IMPORTANT: This is an experimental feature that may change significantly in the future. It’s recommended that you do not write rules relying on this functionality unless you are willing to incur maintenance cost when it changes.)"},
         "forOf": { "type": "boolean" },
-        "generators": { "type": "boolean", description: "enable generators" },
+        "generators": { "type": "boolean", "description": "enable generators" },
         "globalReturn": { "type": "boolean", "description": "allow return statements in the global scope" },
         "impliedStrict": { "type": "boolean", "description": "enable global strict mode (if ecmaVersion is 5 or greater)" },
         "jsx": { "type": "boolean", "description": "enable JSX" },
